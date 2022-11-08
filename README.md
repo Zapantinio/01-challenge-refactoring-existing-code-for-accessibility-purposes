@@ -13,8 +13,7 @@ The challenge follows agile project management conventions where it provides a u
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+* [Deployed Page](#page)
 
 ### Installation
 
@@ -41,4 +40,8 @@ It also includes some reasons for wanting to choose Horiseon as your marketing a
 Screenshot of the page attached for reference:
 
 ![alt text](./assets/images/final-product-screenshot.jpg)
+
+###Page
+
+https://zapantinio.github.io/01-challenge-refactoring-existing-code-for-accessibility-purposes/
 
