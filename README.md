@@ -41,7 +41,7 @@ Screenshot of the page attached for reference:
 
 ![alt text](./assets/images/final-product-screenshot.jpg)
 
-###Page
+### Page
 
 https://zapantinio.github.io/01-challenge-refactoring-existing-code-for-accessibility-purposes/
 
