@@ -1,13 +1,19 @@
+/* */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Makes the background colour of the page white*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Gives the header a padding area of 20 pixels, 
+makes the padding a shade of blue and the text white. 
+The font is Trebuchet MS and the others are there as a "fallback" system. If the browser does not support the first font it tries the next one. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,41 +21,60 @@ body {
     color: #ffffff;
 }
 
+/* Makes a block element that inlines to the left of the page at a size of 48 pixels */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Takes the "seo" part of "Horiseon" 
+and makes it a slightly different gray colour */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Gives the division tag a padding of 15 pixels, 
+a right margin of 20 pixels, 
+makes it float to the left (since it's a box element thats not absolutely positioned), 
+adds 5 different fonts, 
+and sets the font size to 20 pixels. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+/* Sets the unordered lists type as none. */
 .header div ul {
     list-style-type: none;
 }
 
+/* Sets the listed elements of the unordered list as inline 
+and gives them a left margin of 25 pixels. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Gives the links of the list a colour of white, 
+and decorates their font with nothing. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the font size of the paragraph elements to 16 pixels. */
 p {
     font-size: 16px;
 }
 
+/* Adds a background image to the "hero" class. 
+Sets its height to 800 pixels, 
+it's width to 100%, 
+gives it a bottom margin of 25 pixels, 
+makes the picture fit the available space and positions the image to the centre.  */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +84,37 @@ p {
     background-position: center;
 }
 
+/* Makes the pictures from the "search-engine-optimization" and "social-media-marketing" division float to the left 
+and gives them a margin of 25 pixels. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Makes the picture from the "online-reputation-management" division float to the right 
+and gives it a margin of 25 pixels. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Gives the "content" division a width of 75%, 
+makes it display as an inline block element 
+and gives it a margin of 20 pixels. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Gives the "benefits" division a right margin of 20 pixels, 
+a padding of 20 pixels, 
+makes it so the sides of the element box are not adjacent to the earlier box, 
+makes it float to the right,
+gives it a width of 20%,
+a height of 100%,
+a font family of 5 different fonts, 
+and sets its background colour to a light blue.  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,25 +122,35 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* Makes the "benefit-lead" division have a margin of 32 pixels
+and gives its background (in this case its font) a black colour. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #000000;
 }
 
+/* Makes the "benefit-brand" division have a margin of 32 pixels
+and gives its background (in this case its font) a black colour. */
 .benefit-brand {
     margin-bottom: 32px;
     color: #000000;
 }
 
+/* Makes the "benefit-cost" division have a margin of 32 pixels
+and gives its background (in this case its font) a black colour. */
 .benefit-cost {
     margin-bottom: 32px;
     color: #000000;
 }
 
+/* Gives the h5 header a bottom margin of 10 pixels,
+aligns the text to the centre,
+makes the font size 19 pixels,
+makes the font bold. */
 .benefit-lead h5 {
     margin-bottom: 10px;
     text-align: center;
@@ -108,6 +158,10 @@ p {
     font-weight: bold;
 }
 
+/* Gives the h6 header a bottom margin of 10 pixels,
+aligns the text to the centre,
+makes the font size 19 pixels,
+makes the font bold. */
 .benefit-brand h6 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,6 +169,10 @@ p {
     font-weight: bold;
 }
 
+/* Gives the h7 (set as section in the HTML code since there is no h7 heading in HTML) header a bottom margin of 10 pixels,
+aligns the text to the centre,
+makes the font size 19 pixels,
+makes the font bold. */
 .benefit-cost section {
     margin-bottom: 10px;
     text-align: center;
@@ -122,78 +180,117 @@ p {
     font-weight: bold;
 }
 
+/* Makes the image under the "benefit-lead" division display as a block,
+have a margin of 10 pixels on the right and left, and be centered on top and bottom.
+It also has constrais the width of the image to 150 pixels.  */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Makes the image under the "benefit-brand" division display as a block,
+have a margin of 10 pixels on the right and left, and be centered on top and bottom.
+It also has constrais the width of the image to 150 pixels.  */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Makes the image under the "benefit-cost" division display as a block,
+have a margin of 10 pixels on the right and left, and be centered on top and bottom.
+It also has constrais the width of the image to 150 pixels.  */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Makes the "search-engine-optimization" division have a bottom margin of 20 pixels,
+a padding of 50 pixels,
+a height of 300 pixels,
+gives it a font family of 5 different fonts,
+sets the element's background colour to blue (giving the padding that colour),
+and makes the colour of the font white. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* Makes the "online-reputation-management" division have a bottom margin of 20 pixels,
+a padding of 50 pixels,
+a height of 300 pixels,
+gives it a font family of 5 different fonts,
+sets the element's background colour to blue (giving the padding that colour),
+and makes the colour of the font white. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* Makes the "social-media-marketing" division have a bottom margin of 20 pixels,
+a padding of 50 pixels,
+a height of 300 pixels,
+gives it a font family of 5 different fonts,
+sets the element's background colour to blue (giving the padding that colour),
+and makes the colour of the font white. */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* Constrains the image's height under the "search-engine-optimization" division have to 200 pixels. */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Constrains the image's height under the "online-reputation-management" division have to 200 pixels. */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Constrains the image's height under the "social-media-marketing" division have to 200 pixels. */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Makes the h2 heading under the "search-engine-optimization" division to have a bottom margin of 20 pixels,
+and a font size of 36 pixels. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Makes the h3 heading under the "online-reputation-management" division to have a bottom margin of 20 pixels,
+and a font size of 36 pixels. */
 .online-reputation-management h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Makes the h4 heading under the "social-media-marketing" division to have a bottom margin of 20 pixels,
+and a font size of 36 pixels. */
 .social-media-marketing h4 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Gives the footer a padding of 30 pixels,
+makes it not be adjacent to other previous blocks,
+gives it a font family of 5 monts,
+and aligns the text to the centre. */
 .footer {
     padding: 30px;
     clear: both;
@@ -201,6 +298,7 @@ p {
     text-align: center;
 }
 
+/* Gives a font size of 20 pixels to the heading h8 section of the footer. */
 .footer section {
     font-size: 20px;
 }
