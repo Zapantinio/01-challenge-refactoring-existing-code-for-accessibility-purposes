@@ -107,6 +107,86 @@ and gives it a margin of 20 pixels. */
     margin-left: 20px;
 }
 
+/* Makes the "search-engine-optimization" division have a bottom margin of 20 pixels,
+a padding of 50 pixels,
+a height of 300 pixels,
+gives it a font family of 5 different fonts,
+sets the element's background colour to blue (giving the padding that colour),
+and makes the colour of the font white. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Makes the "online-reputation-management" division have a bottom margin of 20 pixels,
+a padding of 50 pixels,
+a height of 300 pixels,
+gives it a font family of 5 different fonts,
+sets the element's background colour to blue (giving the padding that colour),
+and makes the colour of the font white. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Makes the "social-media-marketing" division have a bottom margin of 20 pixels,
+a padding of 50 pixels,
+a height of 300 pixels,
+gives it a font family of 5 different fonts,
+sets the element's background colour to blue (giving the padding that colour),
+and makes the colour of the font white. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Constrains the image's height under the "search-engine-optimization" division have to 200 pixels. */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Constrains the image's height under the "online-reputation-management" division have to 200 pixels. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Constrains the image's height under the "social-media-marketing" division have to 200 pixels. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Makes the h2 heading under the "search-engine-optimization" division to have a bottom margin of 20 pixels,
+and a font size of 36 pixels. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Makes the h3 heading under the "online-reputation-management" division to have a bottom margin of 20 pixels,
+and a font size of 36 pixels. */
+.online-reputation-management h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Makes the h4 heading under the "social-media-marketing" division to have a bottom margin of 20 pixels,
+and a font size of 36 pixels. */
+.social-media-marketing h4 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* Gives the "benefits" division a right margin of 20 pixels, 
 a padding of 20 pixels, 
 makes it so the sides of the element box are not adjacent to the earlier box, 
@@ -205,86 +285,6 @@ It also has constrais the width of the image to 150 pixels.  */
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Makes the "search-engine-optimization" division have a bottom margin of 20 pixels,
-a padding of 50 pixels,
-a height of 300 pixels,
-gives it a font family of 5 different fonts,
-sets the element's background colour to blue (giving the padding that colour),
-and makes the colour of the font white. */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Makes the "online-reputation-management" division have a bottom margin of 20 pixels,
-a padding of 50 pixels,
-a height of 300 pixels,
-gives it a font family of 5 different fonts,
-sets the element's background colour to blue (giving the padding that colour),
-and makes the colour of the font white. */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Makes the "social-media-marketing" division have a bottom margin of 20 pixels,
-a padding of 50 pixels,
-a height of 300 pixels,
-gives it a font family of 5 different fonts,
-sets the element's background colour to blue (giving the padding that colour),
-and makes the colour of the font white. */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Constrains the image's height under the "search-engine-optimization" division have to 200 pixels. */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* Constrains the image's height under the "online-reputation-management" division have to 200 pixels. */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Constrains the image's height under the "social-media-marketing" division have to 200 pixels. */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Makes the h2 heading under the "search-engine-optimization" division to have a bottom margin of 20 pixels,
-and a font size of 36 pixels. */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Makes the h3 heading under the "online-reputation-management" division to have a bottom margin of 20 pixels,
-and a font size of 36 pixels. */
-.online-reputation-management h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* Makes the h4 heading under the "social-media-marketing" division to have a bottom margin of 20 pixels,
-and a font size of 36 pixels. */
-.social-media-marketing h4 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Gives the footer a padding of 30 pixels,
