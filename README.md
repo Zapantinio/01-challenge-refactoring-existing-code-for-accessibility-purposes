@@ -11,10 +11,10 @@ The challenge follows agile project management conventions where it provides a u
 
 ## Table of Contents 
 
-[Installation](#installation)
-[Usage](#usage)
-[Credits](#credits)
-[License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
 ### Installation
 
